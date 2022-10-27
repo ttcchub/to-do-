@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+  
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main>
+        <div class="background">
+          <header>
+            <h1>TO DO</h1>
+      
+          </header>
+        </div>
+        <section class="section-input">
+          <form>
+            <label for="input-task">New Task:</label>
+            <input type="text" id="input-task" required />
+            <button class="pluss" type="submit" id="submit">  +  </button>
+          </form>
+        </section>
+        <section class="section-tasks">
+          <ul class="task-list"></ul>
+        </section>
+        <button id="clear-all"> CLEAR </button>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
